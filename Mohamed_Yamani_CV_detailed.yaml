@@ -70,7 +70,7 @@ cv:
       - name: Octolib
         date: '[Link](https://octolib.org/)'
         highlights:
-          - An archive of educational resources for ESI SBA students, receiving ~200 daily visits.
+          - An archive of educational resources for ESI SBA students, receiving +400 daily visits.
           - 'Technologies: Astro, TypeScript and Tailwind CSS.'
 
     education:
