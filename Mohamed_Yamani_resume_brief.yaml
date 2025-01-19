@@ -123,3 +123,10 @@ design:
       bottom: 0.3 cm
       horizontal_between_connections: 0.5 cm
   show_timespan_in: []
+
+rendercv_settings:
+  render_command:
+    output_folder_name: rendercv_output
+    pdf_path: Mohamed_Yamani_resume_brief.pdf 
+    dont_generate_html: true 
+    dont_generate_markdown: true 
