@@ -9,51 +9,57 @@ cv:
       username: yamanidev
     - network: GitHub
       username: yamanidev
+    - network: YouTube
+      username: yamanidev
   sections:
     summary:
-      - Front-end software engineer specializing in React and Next.js, with hands-on experience in building web applications and responsive user interfaces. Proven ability to work with clients in a freelance and contracting capacity.
-
-    technologies:
-      - label: Languages
-        details: HTML, CSS, JavaScript, TypeScript
-      - label: 'UI libraries/frameworks'
-        details: 'React.js, Next.js, Astro'
-      - label: Data Fetching & Asynchronous state
-        details: 'Axios and React Query'
-      - label: Styling
-        details: 'Tailwind CSS, daisyUI, Material UI'
+      - Software engineer experienced in building and maintaining full-stack web applications, with a focus on delivering reliable, well-crafted products and contributing meaningfully to the teams behind them. Sharing my experience with the community through social media, blog, and YouTube channel.
 
     experience:
-      - company: Gen 42
-        position: Front end Developer Intern
-        location: Algiers
-        start_date: 2022-10
-        end_date: 2023-01
+      - company: Charik
+        position: Full-Stack Developer
+        location: Remote (France)
+        start_date: 2024-01
+        end_date: "present"
         highlights:
-          - Contributed to an internal product for collecting and visualizing social media data, enabling users to generate reports via a GUI editor.
-      - company: NXTYOU
-        position: Front end Developer (contractor)
-        location: Remote
-        start_date: 2023-01
-        end_date: 2023-04
-        highlights:
-          - Collaborated with designers to convert Figma designs into responsive websites using Next.js and Tailwind CSS.
+          - Transitioned from front-end to full-stack development, becoming fully productive with Python and Django in 2 weeks.
+          - Developed and maintained core Charik products, integrating multiple data sources and third-party services for a cohesive system.
+          - Collaborated closely with the DevOps engineer for the CI/CD and infrastructure setup and maintenance.
+          - Diagnosed and resolved long-standing critical bugs.
+          - Took on team leadership responsibilities, contributing to developer hiring, onboarding, and technical direction.
+          - Mentored junior developers through PR reviews, pair programming and code quality discussions.
+          - "Tech stack: Python, Django, PostgreSQL, React, TypeScript, Docker and Docker Compose, Tailwind CSS..."
+
       - company: Independent
         position: Front end Developer
         location: Remote
         start_date: 2023-04
         end_date: "present"
         highlights:
-          - Took on projects through personal networks and platforms like Upwork, developing custom user interfaces in collaboration with designers, and addressing specific client needs such as feature development, responsiveness, refactoring, and debugging.
+          - Delivered several client projects, collaborating with designers and addressing front-end needs such as custom features, responsive layouts and debugging.
+      - company: NXTYOU
+        position: Front end Developer
+        location: Remote (Germany)
+        start_date: 2023-01
+        end_date: 2023-04
+        highlights:
+          - Collaborated with designers to convert Figma designs into responsive websites using Next.js and Tailwind CSS.
+      - company: Gen 42
+        position: Front end Developer Intern
+        location: Remote (Algiers)
+        start_date: 2022-10
+        end_date: 2023-01
+        highlights:
+          - Contributed to an internal product for collecting and visualizing social media data, enabling users to generate reports via a GUI editor.
 
     projects:
-      - name: Offset Prototypes (still under development)
-        date: '[Link](https://staging.offsetprototypes.com/)'
+      - name: Offset Prototypes
+        date: '[Link](https://offsetprototypes.com/)'
         highlights:
           - Developed an online marketplace for on-demand prototyping, allowing users to upload STEP files, receive instant quotes, and place orders for prototypes.
           - 'Technologies: Next.js, TypeScript and Material UI.'
       - name: Omran Summit
-        date: '[Link](https://summit.omran.org/)'
+        date: '[Link (archived, event ended)](https://omran-event.vercel.app/)'
         highlights:
           - Responsible for ensuring the responsiveness of the project, optimizing layouts for various devices to enhance the user experience across platforms.
           - 'Technologies: Next.js, TypeScript, shadcn and Tailwind CSS.'
