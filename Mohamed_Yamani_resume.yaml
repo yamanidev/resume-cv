@@ -133,7 +133,7 @@ design:
 rendercv_settings:
   render_command:
     output_folder_name: rendercv_output
-    pdf_path: Mohamed_Yamani_CV_detailed.pdf 
+    pdf_path: Mohamed_Yamani_resume.pdf 
     dont_generate_html: true 
     dont_generate_markdown: true 
 
