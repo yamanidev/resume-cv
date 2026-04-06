@@ -22,13 +22,13 @@ cv:
         start_date: 2024-01
         end_date: "present"
         highlights:
-          - Transitioned from front-end to full-stack development, becoming fully productive with Python and Django in 2 weeks.
-          - Developed and maintained core Charik products, integrating multiple data sources and third-party services for a cohesive system.
-          - Collaborated closely with the DevOps engineer for the CI/CD and infrastructure setup and maintenance.
-          - Diagnosed and resolved long-standing critical bugs.
-          - Took on team leadership responsibilities, contributing to developer hiring, onboarding, and technical direction.
-          - Mentored junior developers through PR reviews, pair programming and code quality discussions.
-          - "Tech stack: Python, Django, PostgreSQL, React, TypeScript, Docker and Docker Compose, Tailwind CSS..."
+          - Architected and built Charik v2 from the ground up, including data models, API design, background job pipeline, and multi-source lead enrichment system integrating multiple 3rd party APIs
+          - Conducted technical interviews, onboarded multiple developers, wrote architecture documentation, and performed code reviews across +4 production codebases
+          - Built multi-tenant CRM back end with PostgreSQL schema isolation, soft deletion with cascade rules, and tenant-specific Django Admin
+          - "Optimized critical performance bottlenecks: contact form enrichment from ~13s to ~4-5s (62% faster), gender reveal from 0.2s to 0.005s (40x improvement via database caching), Chrome extension contact endpoint by 450ms"
+          - Led development of Chrome extension across two major versions, including scraping logic with fallback UIs for timeout/blocking scenarios, unit test coverage, and integration with enrichment APIs
+          - Implemented OAuth integrations (Google and Microsoft) and Google Calendar bidirectional sync
+          - "Tech stack: Python, Django, Django REST Framework, PostgreSQL, Celery, Redis, React, TypeScript, Docker, HubSpot API, Mailgun, Sentry, Nginx"
 
       - company: Independent
         position: Front end Developer
