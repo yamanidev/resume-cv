@@ -19,7 +19,7 @@ cv:
       - company: Charik
         position: Full-Stack Developer
         location: Remote (France)
-        start_date: 2024-01
+        start_date: 2025-01
         end_date: "present"
         highlights:
           - Architected and built Charik v2 from the ground up, including data models, API design, background job pipeline, and multi-source lead enrichment system integrating multiple 3rd party APIs
