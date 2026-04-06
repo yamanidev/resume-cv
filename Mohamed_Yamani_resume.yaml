@@ -57,27 +57,27 @@ cv:
         date: '[Link](https://offsetprototypes.com/)'
         highlights:
           - Developed an online marketplace for on-demand prototyping, allowing users to upload STEP files, receive instant quotes, and place orders for prototypes.
-          - 'Technologies: Next.js, TypeScript and Material UI.'
+          - 'Tech stack: Next.js, TypeScript and Material UI.'
       - name: Omran Summit
         date: '[Link (archived, event ended)](https://omran-event.vercel.app/)'
         highlights:
           - Responsible for ensuring the responsiveness of the project, optimizing layouts for various devices to enhance the user experience across platforms.
-          - 'Technologies: Next.js, TypeScript, shadcn and Tailwind CSS.'
+          - 'Tech stack: Next.js, TypeScript, shadcn and Tailwind CSS.'
       - name: Patrik Kühnen
         date: '[Link](https://patrikkuehnen.com/)'
         highlights:
           - Worked on the client's website, implementing key front-end features and ensuring cross-device responsiveness during my time with NXTYOU.
-          - 'Technologies: Next.js, TypeScript and Tailwind CSS.'
+          - 'Tech stack: Next.js, TypeScript and Tailwind CSS.'
       - name: Küffner Capital
         date: '[Link](https://kueffner-capital.com/)'
         highlights:
           - Developed a responsive website for the client during my time at NXTYOU, converting Figma designs into a functional, user-friendly interface.
-          - 'Technologies: Next.js, TypeScript and Tailwind CSS.'
+          - 'Tech stack: Next.js, TypeScript and Tailwind CSS.'
       - name: Octolib
         date: '[Link](https://octolib.org/)'
         highlights:
           - An archive of educational resources for ESI SBA students, receiving ~200 daily visits.
-          - 'Technologies: Astro, TypeScript and Tailwind CSS.'
+          - 'Tech stack: Astro, TypeScript and Tailwind CSS.'
 
     education:
       - institution: Higher School of Computer Science (ESI SBA)
