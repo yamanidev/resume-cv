@@ -80,18 +80,15 @@ cv:
           - 'Tech stack: Astro, TypeScript and Tailwind CSS.'
 
     education:
-      - institution: Higher School of Computer Science (ESI SBA)
-        area: Computer Science
-        degree: BSc
-        location: Sidi Bel Abbes
-        start_date: 2019
-        end_date: 2022
-      - institution: Higher School of Computer Science (ESI SBA)
+      - institution: Higher National School of Computer Science (ESI SBA)
         area: Systems Engineering
         degree: MSc
-        location: Sidi Bel Abbes
-        start_date: 2022
+        location: Sidi Bel Abbes, Algeria
+        start_date: 2019
         end_date: 2024
+        highlights:
+          - 5-year engineering program following French Grande École system
+
     
 settings:
   render_command:
