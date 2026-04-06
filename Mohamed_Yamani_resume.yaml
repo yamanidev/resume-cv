@@ -59,7 +59,7 @@ cv:
           - Developed an online marketplace for on-demand prototyping, allowing users to upload STEP files, receive instant quotes, and place orders for prototypes.
           - 'Tech stack: Next.js, TypeScript and Material UI.'
       - name: Omran Summit
-        date: '[Link (archived, event ended)](https://omran-event.vercel.app/)'
+        date: '[Link (event ended)](https://summit.omran.org/)'
         highlights:
           - Responsible for ensuring the responsiveness of the project, optimizing layouts for various devices to enhance the user experience across platforms.
           - 'Tech stack: Next.js, TypeScript, shadcn and Tailwind CSS.'
