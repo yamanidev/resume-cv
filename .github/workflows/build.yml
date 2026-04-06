@@ -28,9 +28,8 @@ jobs:
         run: rendercv render Mohamed_Yamani_resume.yaml
 
       - name: Release
-        uses: softprops/action-gh-release@v2
-        with:
-          tag_name: latest
-          name: Latest
-          files: rendercv_output/*
-          make_latest: true
+        run: |
+          gh release delete latest --yes --cleanup-tag 2>/dev/null || true
+          gh release create latest rendercv_output/* --title "Latest" --latest
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
