@@ -56,8 +56,9 @@ cv:
       - name: Offset Prototypes
         date: '[Link](https://offsetprototypes.com/)'
         highlights:
-          - Developed an online marketplace for on-demand prototyping, allowing users to upload STEP files, receive instant quotes, and place orders for prototypes.
-          - 'Tech stack: Next.js, TypeScript and Material UI.'
+          - Built frontend for on-demand prototyping marketplace with 3D STEP file visualization using React-three.js, multi-step quote configuration flow (materials, manufacturers, shipping options), and dynamic pricing display
+          - Designed data flow architecture for STEP file processing pipeline (upload → backend extraction of dimensions/volume → GBL conversion → 3D rendering) and integrated with back end API
+          - 'Tech stack: Next.js, TypeScript and Material UI, React-three.js'
       - name: Omran Summit
         date: '[Link (event ended)](https://summit.omran.org/)'
         highlights:
