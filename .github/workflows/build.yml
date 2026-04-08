@@ -47,3 +47,6 @@ jobs:
             --title "Latest" --latest --notes-file release_notes.md
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Trigger website redeploy
+        run: curl -X POST "${{ secrets.CLOUDFLARE_DEPLOY_HOOK }}"
