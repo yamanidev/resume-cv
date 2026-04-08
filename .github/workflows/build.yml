@@ -39,6 +39,8 @@ jobs:
           EOF
 
           gh release delete latest --yes --cleanup-tag 2>/dev/null || true
+          git tag -f latest
+          git push -f origin latest
           gh release create latest \
             rendercv_output/Mohamed_Yamani_resume.pdf \
             rendercv_output/Mohamed_Yamani_resume.md \
