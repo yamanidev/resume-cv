@@ -30,7 +30,23 @@ jobs:
 
       - name: Release
         run: |
+          cat > release_notes.md << 'EOF'
+          | File | Description |
+          |------|-------------|
+          | `.pdf` | Print-ready resume |
+          | `.md` | Markdown version |
+          | `.png` | Page previews (one per page) |
+          EOF
+
+          BASE_URL="https://github.com/${{ github.repository }}/releases/download/latest"
+
+          for png in rendercv_output/*.png; do
+            filename=$(basename "$png")
+            echo "" >> release_notes.md
+            echo "![Page preview](${BASE_URL}/${filename})" >> release_notes.md
+          done
+
           gh release delete latest --yes --cleanup-tag 2>/dev/null || true
-          gh release create latest rendercv_output/* --title "Latest" --latest
+          gh release create latest rendercv_output/* --title "Latest" --latest --notes-file release_notes.md
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
