@@ -94,8 +94,8 @@ settings:
   render_command:
     pdf_path: rendercv_output/Mohamed_Yamani_resume.pdf
     markdown_path: rendercv_output/Mohamed_Yamani_resume.md
-    png_path: rendercv_output/Mohamed_Yamani_resume.png
     dont_generate_html: true
+    dont_generate_png: true
 
 design:
   theme: classic
