@@ -13,7 +13,7 @@ packaging==26.0
 phonenumbers==9.0.27
 pydantic==2.12.5
 pydantic-extra-types==2.11.2
-pydantic_core==2.41.5
+pydantic_core==2.45.0
 Pygments==2.20.0
 rendercv==2.8
 rendercv-fonts==0.5.1
